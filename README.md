@@ -13,16 +13,6 @@ Requirements
 * Under Windows `%WXWIN%` environment variable is required. Should point to wxWidgets source folder (e.g. `C:\libs\wxWidgets-svn`)
 * Ensure that you have only `vc_dll` subfolder in `%WXWIN%/libs`. If you have `vc_lib*` folders (contain static build of wxWidgets) then rename them temporary.
 
-wxWidgets Build Commands for Linux and OS X
--------------------------------------------
-<strong>Debug:</strong>
-
-`configure --enable-shared --disable-static --enable-unicode --disable-compat28 --disable-final --enable-debug`
-
-<strong>Release:</strong>
-
-`configure --enable-shared --disable-static --enable-unicode --disable-compat28 --enable-final --disable-debug`
-
 ## Compilation under Windows
 
 You can build this project automatically using `build.bat`.
